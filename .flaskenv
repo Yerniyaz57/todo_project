@@ -1,0 +1,12 @@
+FLASK_ENV=development
+FLASK_APP=todo_service_api.app:create_app
+SECRET_KEY=changeme
+DATABASE_URI=postgres://postgres:0000@localhost:5432/todo_db
+CELERY_BROKER_URL=redis://redis:6379/7
+CELERY_RESULT_BACKEND_URL=redis://redis
+MAIL_SERVER=smtp.mail.ru
+MAIL_PORT=465
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_USE_TLS=False
+MAIL_USE_SSL=True
